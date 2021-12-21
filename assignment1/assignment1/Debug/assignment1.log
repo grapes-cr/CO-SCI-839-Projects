@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall List<double>::List<double>(int)" (??0?$List@N@@QAE@H@Z) referenced in function "public: void __thiscall List<double>::`default constructor closure'(void)" (??_F?$List@N@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall List<double>::resize(int)" (?resize@?$List@N@@QAEXH@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall List<double>::~List<double>(void)" (??1?$List@N@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall List<struct Date>::List<struct Date>(int)" (??0?$List@UDate@@@@QAE@H@Z) referenced in function "public: void __thiscall List<struct Date>::`default constructor closure'(void)" (??_F?$List@UDate@@@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall List<struct Date>::resize(int)" (?resize@?$List@UDate@@@@QAEXH@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall List<struct Date>::~List<struct Date>(void)" (??1?$List@UDate@@@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>><double>(class std::basic_istream<char,struct std::char_traits<char> > &,class List<double> &)" (??$?5N@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAV?$List@N@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>><struct Date>(class std::basic_istream<char,struct std::char_traits<char> > &,class List<struct Date> &)" (??$?5UDate@@@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAV?$List@UDate@@@@@Z) referenced in function _main
+C:\Users\Caitlin\Desktop\assignment1\Debug\assignment1.exe : fatal error LNK1120: 8 unresolved externals
